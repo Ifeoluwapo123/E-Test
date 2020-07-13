@@ -1,0 +1,188 @@
+body{
+	background-color: #e9faff;
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	max-width: 600px;
+}
+
+#name{
+	display: none;
+}
+
+article h2{
+	font-family: cursive;
+	letter-spacing: 1px;
+	padding-bottom: 1px;	
+}
+
+.exam{
+	display: none;
+}
+
+article{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+section{
+	margin-top: 5px;
+}
+
+.qa #question{
+	max-width: 75%;
+	padding: 3px;
+	margin: auto;
+	height: 80px;
+}
+
+.qa #answer{
+	max-width: 60%;
+	padding: 3px;
+	margin: auto;
+}
+
+article input{
+	margin-left: 70px;
+	height: 40px;
+	border-radius: 100%;
+}
+
+.all{
+	max-width: 80%;
+	margin: auto;
+}
+
+article p{
+	display: inline;
+}
+
+article p[class = 'name']{
+	float: right;
+	font-size: 18px;
+	font-family: serif;
+	margin-left: 200pt;
+}
+
+.container .next{
+	float: right;
+	border-radius: 2px;
+	display: none;
+}
+
+.container .prev{
+	border-radius: 2px;
+	display: none;
+}
+
+#submit{
+	display: none;
+}
+
+.glyphicon-info-sign{
+	width: 40px;
+	height: 30px;
+	border-radius: 2px;
+}
+
+.glyphicon-remove{
+	width: 40px;
+	height: 30px;
+	border-radius: 2px;
+	display: none;
+}
+
+#sub input{
+	width:480px;
+	margin: auto;
+	margin-top: 7px;
+	margin-left: 170px;
+	margin-bottom: 2px;
+}
+
+section{
+	padding-top: 2px;
+	background-color: #ffffff;
+}
+
+.glyphicon-time{
+	margin-right: 50px;
+	float: right;
+	font-size: 20px;
+}
+
+div #time{
+	text-decoration: blink;
+	text-decoration: underline;
+}
+
+#question p{
+	margin-left: 16px;
+	font-size: 18px;
+	font-weight: lighter;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+}
+
+#answer form{
+	margin-left: 16px;
+}
+
+#foot{
+	display: none;
+}
+
+section h3{
+	margin: auto;
+	width: 750pt;
+	text-align: center;
+	font-family: cursive;
+}
+
+footer .container-fluid{
+	border:5px solid grey;
+	max-width: 100%;
+	padding-top: 5px;
+	padding-left: 35px;
+}
+
+footer .buttons{
+	border: 1px solid black;
+	width: 60px;
+	color:green;
+	background-color: #FF6347;
+	padding-top: 3px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+footer table tr button{
+	max-width: 60%;
+	margin: auto;
+}
+
+button:hover{
+	background-color: #000000;
+}
+
+button:active {
+    color: red;
+} 
+
+#clickme{
+	padding: 5px;
+	height: 30px;
+	border: 1px solid green;
+	width: 150px;
+	background-color: white;
+}
+
+#clicked{
+	border-radius: 10%;
+	padding: 5px;
+	height: 50px;
+	border: 1px solid green;
+	width: 150px;
+	background-color: white;
+}
